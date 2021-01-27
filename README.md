@@ -122,7 +122,7 @@ scheduler.schedule(myAdhocTask.instance("1045", new MyTaskData(1001L)), Instant.
 
 ### Proper shutdown of the scheduler
 
-To avoid unnecessary [dead exexutions](#dead-executions), it is important to shutdown the scheduler properly, i.e. calling the `shutdown` method.
+To avoid unnecessary [dead executions](#dead-executions), it is important to shutdown the scheduler properly, i.e. calling the `shutdown` method.
 
 ```java
 
